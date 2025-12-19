@@ -1,27 +1,71 @@
-# NgVideoGames
+# 🎮 Game Store – Video Games Explorer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+Game Store is a modern web application built with **Angular** and **Angular Material** that allows users to explore video games across multiple platforms including **PC, PlayStation, and Xbox**.
 
-## Development server
+Users can view **game details, reviews, trailers, screenshots, and Metacritic scores** in a clean and responsive UI.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🔗 **Live Demo:** https://bestgamesstore.netlify.app/
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🎥 Demo
 
-## Build
+<p align="center">
+  <img src="assets/demo.gif" alt="Game Store Application Demo" width="900" />
+</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+> Add a short GIF here (search → open game → view trailer/screenshots)
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ✨ Features
+- 🔍 Search games from a large game database
+- 🎮 Browse games by platform (PC, PlayStation, Xbox)
+- 📝 View detailed game information
+- ⭐ Metacritic ratings & reviews
+- 🎥 Watch game trailers
+- 🖼️ View screenshots and media gallery
+- 📱 Responsive UI using Angular Material
+- ⚡ Fast navigation and optimized performance
+- 🚀 Deployed on Netlify
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠 Tech Stack
 
-## Further help
+**Frontend**
+- Angular
+- Angular Material
+- TypeScript
+- HTML5
+- SCSS
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**APIs**
+- Public Video Games APIs (RAWG / similar)
+
+**Deployment**
+- Netlify
+
+---
+
+## 🧠 What I Learned
+- Building scalable applications using Angular architecture
+- Integrating and consuming third-party REST APIs
+- Creating responsive layouts with Angular Material
+- Implementing search and filter functionality
+- Managing async data flows using RxJS
+- Deploying Angular applications to Netlify
+
+---
+
+## 📂 Project Structure
+```text
+src/
+├── app/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── models/
+│   ├── app-routing.module.ts
+│   └── app.module.ts
+└── assets/
